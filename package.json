@@ -1,0 +1,22 @@
+{
+  "name": "inline-script-source-map",
+  "version": "0.0.1",
+  "description": "A demo of source map for inline script",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:dotnil/inline-script-source-map.git"
+  },
+  "dependencies": {
+    "co": "~4.6.0",
+    "koa": "~1.0.0",
+    "koa-static": "~1.4.9",
+    "oceanify": "~4.2.0",
+    "yen": "~1.2.4"
+  },
+  "devDependencies": {
+    "node-dev": "~2.7.1"
+  },
+  "scripts": {
+    "start": "node-dev --harmony app.js"
+  }
+}
